@@ -1,0 +1,119 @@
+.arlinks{
+    list-style-type: none;
+     background-color: darkolivegreen;
+     margin: 0;
+     padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav li a:hover{
+    background-color: greenyellow;
+}
+.styleimages{
+    background-image: url("/Images/dog.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.artexts{
+    text-align: center;
+    color: brown;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.arbutton{
+   padding: 12px 12px;
+    width: 60%;
+    border-radius: 12px;
+    background-color: darkgray;
+    color: white;
+}
+nav , section{
+    margin: 3px;
+    padding: 2px;
+}
+.center{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+}
+.flex-contain{
+    display: flex;
+}
+.flex-contain > div {
+    margin: 3px;
+    padding: 3px;
+}
+#gallery img{
+    border-radius: 50%;
+}
+.flexbox >div{
+    margin: 2px;
+    padding: 2px;
+}
+#about p {
+    border: 1px solid green;
+    padding: 15px;
+}
+.container{
+  padding: 40px;
+  background: lightgray;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-80 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+input,textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid green;
+    resize: vertical;
+}
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+}
+.submitbtn{
+    float: right;
+    padding: 12px 10px;
+    width: 25%;
+    background-color: green;
+    border-radius: 4px;
+    border: none;
+}

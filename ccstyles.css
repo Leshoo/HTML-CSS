@@ -1,0 +1,48 @@
+
+form {
+    border: 5px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: darkslateblue;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.inputstyle{
+    width: 40%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    margin: 9px;
+}
+.otherinputs{
+   margin: 9px;
+}
+
+body{
+    background-color: aquamarine;
+}
+.header{
+    align-items: center;
+}
+img{
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: block;
+    padding: 0;
+    border-radius: px;
+}
+footer{
+    background-color: brown;
+}
+.menu{
+    background-color: black;
+}
+.menu a{
+    color: white;
+}
+.link a{
+    color: blue;
+}
